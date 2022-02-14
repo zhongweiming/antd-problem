@@ -1,0 +1,1 @@
+问题的原因就是这里回车派发值的时候，不应该取item.data.value字段，因为如果自定义value字段的话，是没有"value"的。应该直接用item.value
